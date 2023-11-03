@@ -1,0 +1,38 @@
+header {
+    background-color: #FFBDF7;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: large;
+    }
+    body, html {
+    height: 100%;
+    margin: 0;
+    }
+    .container {
+    display: flex;
+    height: 100%;
+    font-family: 'Lora', serif;
+    }
+    .column {
+    padding: 10px;
+    border: none;
+    flex: 1;
+    }
+    #left-column {
+    flex-basis: 25%;
+    max-width: 25%;
+    background-color: #FAF3F0;
+    }
+    #right-column {
+    flex-basis: 75%;
+    max-width: 75%;
+    background-color:#DFCCFB;
+    }
+    .image{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    }
